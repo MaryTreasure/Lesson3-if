@@ -1,4 +1,4 @@
-let age = 18;
+/* let age = 18;
 age = +age;
 
 if (!isNaN(+age)) {
@@ -27,4 +27,10 @@ if (gender.toLowerCase() === 'муж') {
 
 if (gender.toLowerCase() === 'жен') {
     console.log('Вам направо');
-}
+} */
+const isAdmin = true;
+console.log (`Добро пожаловать: ${
+    isAdmin
+    ? "Администратор"
+    : "Пользователь"
+}`);
