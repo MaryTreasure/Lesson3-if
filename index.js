@@ -1,16 +1,23 @@
-let age;
+let age = 18;
+age = +age;
+
+if (!isNaN(+age)) {
+    if (age > 18) {
+        console.log('Вам больше 18 лет');
+    } else if (age === 18) {
+        console.log("Вам 18 лет");
+    } else if (age < 18) {
+        console.log("Вам меньше 18 лет");
+    } else {
+        console.log ("Укажите Ваш возраст");
+    }
+}else{
+    console.log ("Введите корректные данные");
+}
 
 const gender = 'ЖЕН';
 
-if (age > 18) {
-    console.log('Вам больше 18 лет');
-} else if (age === 18) {
-    console.log("Вам 18 лет");
-} else if (age === undefined) {
-    console.log("Укажите Ваш возраст");
-} else {
-    console.log ("Вам меньше 18 лет");
-}
+
 
 
 if (gender.toLowerCase() === 'муж') {
