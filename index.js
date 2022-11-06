@@ -63,3 +63,4 @@ while (++value <= lastNumber) {
 console.log (message);
 
 // Сделать убавление дома
+
